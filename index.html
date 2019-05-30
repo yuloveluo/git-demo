@@ -37,7 +37,7 @@
             function wrap(word) {
                 return [...word].map(letter => `<span>${letter}</span>`).join('');
             }
-            OA
+
             console.log(wrap(heading.textContent));
             heading.innerHTML = wrap(heading.textContent);
         }
