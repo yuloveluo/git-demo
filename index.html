@@ -32,12 +32,10 @@
     <script>
         window.onload = function() {
             const heading = document.querySelector('.heading');
-            console.log(123)
 
             function wrap(word) {
                 return [...word].map(letter => `<span>${letter}</span>`).join('');
             }
-            OA
             console.log(wrap(heading.textContent));
             heading.innerHTML = wrap(heading.textContent);
         }
